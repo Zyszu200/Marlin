@@ -86,16 +86,16 @@ namespace Language_pl {
   #if HAS_PREHEAT
     LSTR MSG_PREHEAT_1                    = _UxGT("Rozgrzej ") PREHEAT_1_LABEL;
     LSTR MSG_PREHEAT_1_H                  = _UxGT("Rozgrzej ") PREHEAT_1_LABEL " ~";
-    LSTR MSG_PREHEAT_1_END                = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" Dysza");
-    LSTR MSG_PREHEAT_1_END_E              = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" Dysza ~");
+    LSTR MSG_PREHEAT_1_END                = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" Drut");
+    LSTR MSG_PREHEAT_1_END_E              = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" Drut ~");
     LSTR MSG_PREHEAT_1_ALL                = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" wsz.");
     LSTR MSG_PREHEAT_1_BEDONLY            = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" stół");
     LSTR MSG_PREHEAT_1_SETTINGS           = _UxGT("Rozgrzej ") PREHEAT_1_LABEL _UxGT(" ustaw.");
 
     LSTR MSG_PREHEAT_M                    = _UxGT("Rozgrzej $");
     LSTR MSG_PREHEAT_M_H                  = _UxGT("Rozgrzej $ ~");
-    LSTR MSG_PREHEAT_M_END                = _UxGT("Rozgrzej $ Dysza");
-    LSTR MSG_PREHEAT_M_END_E              = _UxGT("Rozgrzej $ Dysza ~");
+    LSTR MSG_PREHEAT_M_END                = _UxGT("Rozgrzej $ Drut");
+    LSTR MSG_PREHEAT_M_END_E              = _UxGT("Rozgrzej $ Drut ~");
     LSTR MSG_PREHEAT_M_ALL                = _UxGT("Rozgrzej $ wsz.");
     LSTR MSG_PREHEAT_M_BEDONLY            = _UxGT("Rozgrzej $ stół");
     LSTR MSG_PREHEAT_M_SETTINGS           = _UxGT("Rozgrzej $ ustaw.");
@@ -135,8 +135,8 @@ namespace Language_pl {
   LSTR MSG_IDEX_MODE_DUPLICATE            = _UxGT("Duplikowanie");
   LSTR MSG_IDEX_MODE_MIRRORED_COPY        = _UxGT("Kopia lustrzana");
   LSTR MSG_IDEX_MODE_FULL_CTRL            = _UxGT("Pełne sterowanie");
-  LSTR MSG_HOTEND_OFFSET_Z                = _UxGT("2ga dysza Z");
-  LSTR MSG_HOTEND_OFFSET_A                = _UxGT("2ga dysza @");
+  LSTR MSG_HOTEND_OFFSET_Z                = _UxGT("2ga drut Z");
+  LSTR MSG_HOTEND_OFFSET_A                = _UxGT("2ga drut @");
   LSTR MSG_UBL_DOING_G29                  = _UxGT("Wykonywanie G29");
   LSTR MSG_UBL_TOOLS                      = _UxGT("Narzędzia UBL");
   LSTR MSG_LCD_TILTING_MESH               = _UxGT("Punkt pochylenia");
@@ -149,8 +149,8 @@ namespace Language_pl {
   LSTR MSG_UBL_DEACTIVATE_MESH            = _UxGT("Dezaktywacja UBL");
   LSTR MSG_UBL_SET_TEMP_BED               = _UxGT("Temperatura stołu");
   LSTR MSG_UBL_BED_TEMP_CUSTOM            = _UxGT("Temperatura stołu");
-  LSTR MSG_UBL_SET_TEMP_HOTEND            = _UxGT("Temperatura dyszy");
-  LSTR MSG_UBL_HOTEND_TEMP_CUSTOM         = _UxGT("Temperatura dyszy");
+  LSTR MSG_UBL_SET_TEMP_HOTEND            = _UxGT("Temperatura drutu");
+  LSTR MSG_UBL_HOTEND_TEMP_CUSTOM         = _UxGT("Temperatura drutu");
   LSTR MSG_UBL_MESH_EDIT                  = _UxGT("Edycja siatki");
   LSTR MSG_UBL_EDIT_CUSTOM_MESH           = _UxGT("Edycja własnej siatki");
   LSTR MSG_UBL_FINE_TUNE_MESH             = _UxGT("Dostrajanie siatki");
@@ -165,7 +165,7 @@ namespace Language_pl {
   LSTR MSG_UBL_VALIDATE_MESH_M            = _UxGT("Sprawdzenie siatki ($)");
   LSTR MSG_UBL_VALIDATE_CUSTOM_MESH       = _UxGT("Sprawdzenie własnej siatki");
   LSTR MSG_G26_HEATING_BED                = _UxGT("G26 Nagrzewanie stołu");
-  LSTR MSG_G26_HEATING_NOZZLE             = _UxGT("G26 Nagrzewanie dyszy");
+  LSTR MSG_G26_HEATING_NOZZLE             = _UxGT("G26 Nagrzewanie drutu");
   LSTR MSG_G26_MANUAL_PRIME               = _UxGT("Napełnianie ręczne...");
   LSTR MSG_G26_FIXED_LENGTH               = _UxGT("Napełnij kreśloną długością");
   LSTR MSG_G26_PRIME_DONE                 = _UxGT("Napełnianie zakończone");
@@ -181,7 +181,7 @@ namespace Language_pl {
   LSTR MSG_UBL_OUTPUT_MAP                 = _UxGT("Wyslij mapę siatki");
   LSTR MSG_UBL_OUTPUT_MAP_HOST            = _UxGT("Wyslij do Hosta");
   LSTR MSG_UBL_OUTPUT_MAP_CSV             = _UxGT("Wyslij do CSV");
-  LSTR MSG_UBL_OUTPUT_MAP_BACKUP          = _UxGT("Kopia poza drukarką");
+  LSTR MSG_UBL_OUTPUT_MAP_BACKUP          = _UxGT("Kopia poza wycinarką");
   LSTR MSG_UBL_INFO_UBL                   = _UxGT("Wyslij info UBL");
   LSTR MSG_UBL_FILLIN_AMOUNT              = _UxGT("Stopień wypełnienia");
   LSTR MSG_UBL_MANUAL_FILLIN              = _UxGT("Ręczne wypełnienie");
@@ -239,7 +239,7 @@ namespace Language_pl {
   LSTR MSG_MOVE_Z                         = _UxGT("Przesuń w Z");
   LSTR MSG_MOVE_E                         = _UxGT("Ekstruzja (os E)");
   LSTR MSG_MOVE_EN                        = _UxGT("Ekstruzja (os E) *");
-  LSTR MSG_HOTEND_TOO_COLD                = _UxGT("Dysza za zimna");
+  LSTR MSG_HOTEND_TOO_COLD                = _UxGT("Drut za zimny");
   LSTR MSG_MOVE_N_MM                      = _UxGT("Przesuń co %s mm");
   LSTR MSG_MOVE_01MM                      = _UxGT("Przesuń co .1 mm");
   LSTR MSG_MOVE_1MM                       = _UxGT("Przesuń co 1 mm");
@@ -250,9 +250,9 @@ namespace Language_pl {
   LSTR MSG_MOVE_01IN                      = _UxGT("Przesuń co 0.1 cala");
   LSTR MSG_SPEED                          = _UxGT("Predkość");
   LSTR MSG_BED_Z                          = _UxGT("Stół Z");
-  LSTR MSG_NOZZLE                         = _UxGT("Dysza");
-  LSTR MSG_NOZZLE_N                       = _UxGT("Dysza ~");
-  LSTR MSG_NOZZLE_STANDBY                 = _UxGT("Dysza w oczekiwaniu");
+  LSTR MSG_NOZZLE                         = _UxGT("Drut");
+  LSTR MSG_NOZZLE_N                       = _UxGT("Drut ~");
+  LSTR MSG_NOZZLE_STANDBY                 = _UxGT("Drut w oczekiwaniu");
   LSTR MSG_BED                            = _UxGT("Stół");
   LSTR MSG_CHAMBER                        = _UxGT("Obudowa");
   LSTR MSG_FAN_SPEED                      = _UxGT("Obroty wentylatora");
@@ -311,7 +311,7 @@ namespace Language_pl {
   LSTR MSG_RESTORE_DEFAULTS               = _UxGT("Ustaw. fabryczne");
   LSTR MSG_INIT_EEPROM                    = _UxGT("Initializuj EEPROM");
   LSTR MSG_MEDIA_UPDATE                   = _UxGT("Uaktualnij kartę");
-  LSTR MSG_RESET_PRINTER                  = _UxGT("Resetuj drukarkę");
+  LSTR MSG_RESET_PRINTER                  = _UxGT("Resetuj wycinarkę");
   LSTR MSG_REFRESH                        = LCD_STR_REFRESH  _UxGT("Odswież");
   LSTR MSG_INFO_SCREEN                    = _UxGT("Ekran główny");
   LSTR MSG_PREPARE                        = _UxGT("Przygotuj");
@@ -319,10 +319,10 @@ namespace Language_pl {
   LSTR MSG_CURRENT                        = _UxGT("Natężenie");
   LSTR MSG_VOLTAGE                        = _UxGT("Napięcie");
   LSTR MSG_POWER                          = _UxGT("Moc");
-  LSTR MSG_START_PRINT                    = _UxGT("Start wydruku");
+  LSTR MSG_START_PRINT                    = _UxGT("Start wycinania");
   LSTR MSG_BUTTON_NEXT                    = _UxGT("Następny");
   LSTR MSG_BUTTON_INIT                    = _UxGT("Inic.");
-  LSTR MSG_BUTTON_PRINT                   = _UxGT("Drukuj");
+  LSTR MSG_BUTTON_PRINT                   = _UxGT("Wycinaj");
   LSTR MSG_BUTTON_RESET                   = _UxGT("Resetuj");
   LSTR MSG_BUTTON_IGNORE                  = _UxGT("Ignoruj");
   LSTR MSG_BUTTON_CANCEL                  = _UxGT("Przerwij");
@@ -331,10 +331,10 @@ namespace Language_pl {
   LSTR MSG_BUTTON_PROCEED                 = _UxGT("Kontynuuj");
   LSTR MSG_BUTTON_SKIP                    = _UxGT("Pomiń");
   LSTR MSG_PAUSING                        = _UxGT("Wstrzymywanie...");
-  LSTR MSG_PAUSE_PRINT                    = _UxGT("Wstrzymaj druk");
+  LSTR MSG_PAUSE_PRINT                    = _UxGT("Wstrzymaj wycinanie");
   LSTR MSG_RESUME_PRINT                   = _UxGT("Wznowienie");
   LSTR MSG_STOP_PRINT                     = _UxGT("Stop");
-  LSTR MSG_PRINTING_OBJECT                = _UxGT("Drukowanie obiektu");
+  LSTR MSG_PRINTING_OBJECT                = _UxGT("Wycinanie obiektu");
   LSTR MSG_CANCEL_OBJECT                  = _UxGT("Anunuj obiekt");
   LSTR MSG_CANCEL_OBJECT_N                = _UxGT("Anunuj obiekt =");
   LSTR MSG_OUTAGE_RECOVERY                = _UxGT("Odzyskiwanie po awarii");
@@ -342,10 +342,10 @@ namespace Language_pl {
   LSTR MSG_NO_MEDIA                       = _UxGT("Brak karty");
   LSTR MSG_DWELL                          = _UxGT("Uśpij...");
   LSTR MSG_USERWAIT                       = _UxGT("Oczekiwanie...");
-  LSTR MSG_PRINT_PAUSED                   = _UxGT("Druk wstrzymany");
-  LSTR MSG_PRINTING                       = _UxGT("Drukowanie...");
-  LSTR MSG_PRINT_ABORTED                  = _UxGT("Druk przerwany");
-  LSTR MSG_PRINT_DONE                     = _UxGT("Druk zakończony");
+  LSTR MSG_PRINT_PAUSED                   = _UxGT("Wycinanie wstrzymane");
+  LSTR MSG_PRINTING                       = _UxGT("Wycianie...");
+  LSTR MSG_PRINT_ABORTED                  = _UxGT("Wycianie przerwane");
+  LSTR MSG_PRINT_DONE                     = _UxGT("Wycianie zakończone");
   LSTR MSG_NO_MOVE                        = _UxGT("Brak ruchu");
   LSTR MSG_KILLED                         = _UxGT("Ubity. ");
   LSTR MSG_STOPPED                        = _UxGT("Zatrzymany. ");
@@ -377,10 +377,10 @@ namespace Language_pl {
   LSTR MSG_SKEW_FACTOR                    = _UxGT("Współczynik skrzywienia");
   LSTR MSG_BLTOUCH_SELFTEST               = _UxGT("BLTouch Self-Test");
   LSTR MSG_BLTOUCH_RESET                  = _UxGT("Reset BLTouch");
-  LSTR MSG_BLTOUCH_MODE_CHANGE            = _UxGT("UWAGA: Złe ustawienia mogą uszkodzić drukarkę. Kontynuować?");
+  LSTR MSG_BLTOUCH_MODE_CHANGE            = _UxGT("UWAGA: Złe ustawienia mogą uszkodzić wycinarkę. Kontynuować?");
   LSTR MSG_HOME_FIRST                     = _UxGT("Najpierw Home %s%s%s");
   LSTR MSG_ZPROBE_ZOFFSET                 = _UxGT("Offset Z");
-  LSTR MSG_MOVE_NOZZLE_TO_BED             = _UxGT("Przesuń dyszę do stołu");
+  LSTR MSG_MOVE_NOZZLE_TO_BED             = _UxGT("Przesuń drut do stołu");
   LSTR MSG_BABYSTEP_TOTAL                 = _UxGT("Łącznie");
   LSTR MSG_ENDSTOP_ABORT                  = _UxGT("Błąd krańcówki");
   LSTR MSG_HEATING_FAILED_LCD             = _UxGT("Rozgrz. nieudane");
@@ -390,7 +390,7 @@ namespace Language_pl {
   LSTR MSG_THERMAL_RUNAWAY_CHAMBER        = _UxGT("ZANIK TEMP.KOMORY");
   LSTR MSG_ERR_MAXTEMP                    = _UxGT("Błąd: MAXTEMP");
   LSTR MSG_ERR_MINTEMP                    = _UxGT("Błąd: MINTEMP");
-  LSTR MSG_HALTED                         = _UxGT("Drukarka zatrzym.");
+  LSTR MSG_HALTED                         = _UxGT("Wycinarka zatrzym.");
   LSTR MSG_PLEASE_RESET                   = _UxGT("Proszę zresetować");
   LSTR MSG_SHORT_HOUR                     = _UxGT("g"); // One character only
   LSTR MSG_HEATING                        = _UxGT("Rozgrzewanie...");
@@ -411,8 +411,8 @@ namespace Language_pl {
   LSTR MSG_DELTA_DIAG_ROD                 = _UxGT("Ukośne ramię");
   LSTR MSG_DELTA_HEIGHT                   = _UxGT("Wysokość");
   LSTR MSG_DELTA_RADIUS                   = _UxGT("Promień");
-  LSTR MSG_INFO_MENU                      = _UxGT("O drukarce");
-  LSTR MSG_INFO_PRINTER_MENU              = _UxGT("Info drukarki");
+  LSTR MSG_INFO_MENU                      = _UxGT("O wycinarce");
+  LSTR MSG_INFO_PRINTER_MENU              = _UxGT("Info wycinarki");
   LSTR MSG_3POINT_LEVELING                = _UxGT("Poziomowanie 3-punktowe");
   LSTR MSG_LINEAR_LEVELING                = _UxGT("Poziomowanie liniowe");
   LSTR MSG_BILINEAR_LEVELING              = _UxGT("Poziomowanie biliniowe");
@@ -428,19 +428,19 @@ namespace Language_pl {
 
   LSTR MSG_CASE_LIGHT                     = _UxGT("Oświetlenie obudowy");
   LSTR MSG_CASE_LIGHT_BRIGHTNESS          = _UxGT("Jasność oświetlenia");
-  LSTR MSG_KILL_EXPECTED_PRINTER          = _UxGT("Niepoprawna drukarka");
+  LSTR MSG_KILL_EXPECTED_PRINTER          = _UxGT("Niepoprawna wycinarka");
 
   #if LCD_WIDTH >= 20 || HAS_DWIN_E3V2
-    LSTR MSG_INFO_PRINT_COUNT             = _UxGT("Wydrukowano");
+    LSTR MSG_INFO_PRINT_COUNT             = _UxGT("Wycięto");
     LSTR MSG_INFO_COMPLETED_PRINTS        = _UxGT("Ukończono");
-    LSTR MSG_INFO_PRINT_TIME              = _UxGT("Czas druku");
-    LSTR MSG_INFO_PRINT_LONGEST           = _UxGT("Najdł. druk");
+    LSTR MSG_INFO_PRINT_TIME              = _UxGT("Czas wycinania");
+    LSTR MSG_INFO_PRINT_LONGEST           = _UxGT("Najdł. wyci");
     LSTR MSG_INFO_PRINT_FILAMENT          = _UxGT("Użyty fil.");
   #else
-    LSTR MSG_INFO_PRINT_COUNT             = _UxGT("Wydrukowano");
+    LSTR MSG_INFO_PRINT_COUNT             = _UxGT("wycięto");
     LSTR MSG_INFO_COMPLETED_PRINTS        = _UxGT("Ukończono");
     LSTR MSG_INFO_PRINT_TIME              = _UxGT("Razem");
-    LSTR MSG_INFO_PRINT_LONGEST           = _UxGT("Najdł. druk");
+    LSTR MSG_INFO_PRINT_LONGEST           = _UxGT("Najdł. wyci");
     LSTR MSG_INFO_PRINT_FILAMENT          = _UxGT("Użyty fil.");
   #endif
 
@@ -456,13 +456,13 @@ namespace Language_pl {
   LSTR MSG_ERROR_TMC                      = _UxGT("TMC BŁĄD POŁĄCZENIA");
   LSTR MSG_DAC_EEPROM_WRITE               = _UxGT("Zapisz DAC EEPROM");
   LSTR MSG_FILAMENT_CHANGE_HEADER         = _UxGT("ZMIEŃ FILAMENT");
-  LSTR MSG_FILAMENT_CHANGE_HEADER_PAUSE   = _UxGT("WYDRUK WSTRZYMANY");
+  LSTR MSG_FILAMENT_CHANGE_HEADER_PAUSE   = _UxGT("WYCINANIE WSTRZYMANE");
   LSTR MSG_FILAMENT_CHANGE_HEADER_LOAD    = _UxGT("WSUŃ FILAMENT");
   LSTR MSG_FILAMENT_CHANGE_HEADER_UNLOAD  = _UxGT("WYSUŃ FILAMENT");
   LSTR MSG_FILAMENT_CHANGE_OPTION_HEADER  = _UxGT("OPCJE WZNOWIENIA:");
   LSTR MSG_FILAMENT_CHANGE_OPTION_PURGE   = _UxGT("Oczyść więcej");
   LSTR MSG_FILAMENT_CHANGE_OPTION_RESUME  = _UxGT("Kontynuuj");
-  LSTR MSG_FILAMENT_CHANGE_NOZZLE         = _UxGT("  Dysza: ");
+  LSTR MSG_FILAMENT_CHANGE_NOZZLE         = _UxGT("  DRUT: ");
   LSTR MSG_RUNOUT_SENSOR                  = _UxGT("Czujnik filamentu");
   LSTR MSG_RUNOUT_DISTANCE_MM             = _UxGT("Dystans do czujnika mm");
   LSTR MSG_KILL_HOMING_FAILED             = _UxGT("Zerowanie nieudane");
@@ -471,7 +471,7 @@ namespace Language_pl {
   LSTR MSG_MMU2_CHOOSE_FILAMENT_HEADER    = _UxGT("WYBIERZ FILAMENT");
   LSTR MSG_KILL_MMU2_FIRMWARE             = _UxGT("Uaktualnij firmware MMU!");
   LSTR MSG_MMU2_NOT_RESPONDING            = _UxGT("MMU wymaga uwagi.");
-  LSTR MSG_MMU2_RESUME                    = _UxGT("Wznów wydruk");
+  LSTR MSG_MMU2_RESUME                    = _UxGT("Wznów wycinanie");
   LSTR MSG_MMU2_RESUMING                  = _UxGT("Wznawianie...");
   LSTR MSG_MMU2_LOAD_FILAMENT             = _UxGT("Wsuń filament");
   LSTR MSG_MMU2_LOAD_ALL                  = _UxGT("Wsuń wszystko");
@@ -513,17 +513,17 @@ namespace Language_pl {
   //                        ...or up to 2 lines on a 3-line display
   //
   #if LCD_HEIGHT >= 4
-    LSTR MSG_ADVANCED_PAUSE_WAITING       = _UxGT(MSG_2_LINE("Nacisnik przycisk", "by wznowić drukowanie"));
+    LSTR MSG_ADVANCED_PAUSE_WAITING       = _UxGT(MSG_2_LINE("Nacisnik przycisk", "by wznowić wycinanie"));
     LSTR MSG_PAUSE_PRINT_PARKING          = _UxGT(MSG_1_LINE("Parkowanie..."));
     LSTR MSG_FILAMENT_CHANGE_INIT         = _UxGT(MSG_3_LINE("Czekam na", "zmianę filamentu", "by wystartować"));
     LSTR MSG_FILAMENT_CHANGE_INSERT       = _UxGT(MSG_3_LINE("Włóż filament", "i naciśnij przycisk", "by kontynuować"));
-    LSTR MSG_FILAMENT_CHANGE_HEAT         = _UxGT(MSG_2_LINE("Naciśnij przycisk", "by nagrzać dyszę"));
-    LSTR MSG_FILAMENT_CHANGE_HEATING      = _UxGT(MSG_2_LINE("Nagrzewanie dyszy", "Proszę czekać..."));
+    LSTR MSG_FILAMENT_CHANGE_HEAT         = _UxGT(MSG_2_LINE("Naciśnij przycisk", "by nagrzać drut"));
+    LSTR MSG_FILAMENT_CHANGE_HEATING      = _UxGT(MSG_2_LINE("Nagrzewanie drutu", "Proszę czekać..."));
     LSTR MSG_FILAMENT_CHANGE_UNLOAD       = _UxGT(MSG_2_LINE("Czekam na", "wyjęcie filamentu"));
     LSTR MSG_FILAMENT_CHANGE_LOAD         = _UxGT(MSG_2_LINE("Czekam na", "włożenie filamentu"));
     LSTR MSG_FILAMENT_CHANGE_PURGE        = _UxGT(MSG_2_LINE("Czekam na", "oczyszczenie filamentu"));
     LSTR MSG_FILAMENT_CHANGE_CONT_PURGE   = _UxGT(MSG_2_LINE("Kliknij by zakończyć", "oczyszczanie filamentu"));
-    LSTR MSG_FILAMENT_CHANGE_RESUME       = _UxGT(MSG_2_LINE("Czekam na", "wznowienie wydruku..."));
+    LSTR MSG_FILAMENT_CHANGE_RESUME       = _UxGT(MSG_2_LINE("Czekam na", "wznowienie wycinania..."));
   #else
     LSTR MSG_ADVANCED_PAUSE_WAITING       = _UxGT(MSG_1_LINE("Kliknij by kontynuować"));
     LSTR MSG_PAUSE_PRINT_PARKING          = _UxGT(MSG_1_LINE("Parkowanie..."));
